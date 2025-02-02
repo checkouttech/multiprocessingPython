@@ -63,7 +63,7 @@ def parseArguments() -> argparse.Namespace:
     ]
 
     # Define an argument that accepts one or multiple values from the list of ids 
-    parser.add_argument("-l", "--layer_ids", nargs="+", help="List of id", choices=ids, default=ids ) 
+    parser.add_argument("-l", "--id", nargs="+", help="List of id", choices=ids, default=ids ) 
 
 
 
